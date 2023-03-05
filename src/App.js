@@ -25,16 +25,6 @@ function App() {
  });
  setPost(result)
   }
-  // count qismi
-  const [count, setCount] = useState(0);
-  const  handlminus = () => {
-if(count>0){
-  setCount(count-1)
-}
-   }
-   const  handlplus = () => {
-    
-      setCount(count+1)
     
        }
 

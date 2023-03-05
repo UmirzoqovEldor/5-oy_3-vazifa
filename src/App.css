@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .App-logo {
@@ -36,3 +38,41 @@
     transform: rotate(360deg);
   }
 }
+.container{
+  padding: 3px;
+  margin: 0;
+  cursor: pointer;
+}
+header{
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-top: 4px;
+  background-color: red;
+  padding: 4px;
+  color: azure;
+}
+.header-gruop{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-input{
+  padding: 10px;
+  
+  border-radius:30px;
+  border: 3px solid rgb(156, 58, 58);
+}
+.header-btn{
+  padding: 10px ;
+  border-radius:10px ;
+  color: blue;
+  border: 3px solid rgb(255, 0, 25);
+}
+
+.post-list{
+  margin-left: 200px;
+}
+.count-paragrif{
+  margin-left: 650px;
+}
+
